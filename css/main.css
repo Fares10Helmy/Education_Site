@@ -1,0 +1,354 @@
+body
+{
+  /* height: 3000px;  */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  
+  
+}
+/*
+color:
+primary: #ff274b;
+secondry: #f7bcf7;
+light: #ffffff;
+bg1: #171a1c;
+bg2: #22282a;
+font size : 16px  1rem
+*/
+
+/***********************************************************
+ ****************************  header Section
+ ***********************************************************/
+
+.header
+{
+  width: 100%;
+  height: 100vh;
+  background-color: #171a1c ;
+}
+.header h2
+{
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.12rem;
+  cursor: pointer;
+  padding-top: 2.8rem; padding-left: 8%;padding-right:8% ;
+}
+
+
+#navbarNav
+{
+  padding-top: 2.8rem
+}
+.header span
+{
+  color: #ff274b;  
+  font-size: 2.2rem;
+}
+a.nav-link 
+{ 
+  color:#ffffff!important;
+  margin-left: 15px;
+  transition: 0.4s;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+  color: #ff274b!important;
+  transform:scale(1.3,1.3)
+}
+
+.text
+{
+  top:110px;
+}
+.text h4
+{
+  color: #f7bcf7;
+  font-size: 1.25rem;
+  letter-spacing: 0.12rem;
+}
+.text h1
+{
+  color: #ffffff;
+  font-size: 4.20rem;
+}
+.text h3
+{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.text img
+{
+  margin-top: 40px; 
+  margin-right: 2rem; 
+  width: 2.5rem;
+  transition: 0.4s;
+  
+
+} 
+
+.text img:hover
+{
+  transform: scale(1.2);
+}
+
+.imgs img
+{
+  margin-top: 15px; 
+  margin-left: 70px;  
+  transition: 0.4s;
+  position: relative;
+  animation: up-and-down 2s linear infinite;
+}
+/* start animation */
+@keyframes up-and-down {
+  0%,100%{
+    top: 0;
+  }
+  50%{
+    top: -25px;
+  }
+}
+/* end animation */
+.imgs img:hover
+{
+  transform: scale(1.1);
+}
+
+/***********************************************************
+ ****************************  about Section
+ ***********************************************************/
+
+.about
+{
+  background-color:#22282a ;
+}
+.about img
+{
+  margin-top: 30px;
+}
+.about .text2 
+{
+  margin-top: 30px;
+}
+.about span
+{
+  color: #ff274b;  
+  font-size: 1.7rem;
+}
+.about .text2 h1
+{
+  color:#ffffff ;
+}
+.about .text2 h4
+{
+  color:#ffffff ;
+}
+.about .text2 p
+{
+  color: #f7bcf7 ; 
+  letter-spacing: 1px; 
+  line-height: 1.8rem;
+}
+#btn-up 
+{
+  position: fixed;
+  bottom: 40px;
+  right: 90px;
+  z-index: 99999;
+  display: none;
+}
+
+/**********************************************************
+ ****************************  services Section
+ ***********************************************************/
+
+.services
+{
+  background-color: #171a1c;
+}
+.services.text3 
+{
+  margin-top: 50px;
+}
+.services h1
+{
+  color:#ffffff;
+  margin-top: 30px;
+  text-align: center; 
+  font-size:  4.20rem; 
+}
+.services h1 span
+{
+  color: #ff274b;  
+  font-size: 4.20rem;
+}
+
+
+.services .card
+{
+  background-color:#22282a;
+  margin: 25px;
+  transition: 0.4s;
+  opacity: 0.6;
+}
+.services .card:hover
+{
+  transform: scale(1.1);
+  opacity: 1;
+  border-color: antiquewhite;
+  cursor: pointer;
+}
+.services h5
+{ 
+  text-align: center;
+}
+.services p 
+{
+  color: #f7bcf7 ; 
+  letter-spacing: 1px; 
+  line-height: 1.8rem;
+}
+.services i {
+  color:#ff274b ;
+  font-size: 3rem;   
+}
+
+
+/***********************************************************
+ ****************************  courses Section
+ ***********************************************************/
+
+
+.skills
+{
+  background-color:#22282a ;
+}
+.skills .text3 
+{
+  margin-top: 30px; 
+  margin-bottom: 20px;
+}
+.skills span
+{
+  color: #ff274b;
+  font-size: 4.20rem;
+}
+.skills .text3 h1
+{
+  color:#ffffff ;
+  font-size: 4.20rem
+}
+
+.skills .content-skills
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills .skills-img {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  margin: 0 2rem 2rem 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.skills .skills-img:hover
+{
+  position: relative;
+  animation: up-and-down 3s linear infinite;
+  
+  
+}
+.skills img  
+{
+  transition: 0.4s;
+  opacity: 0.8;
+  
+}
+.skills img:hover
+{
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity:1;
+  
+}
+
+
+.skills .p6
+{
+  margin-top: 70px;
+}
+
+
+/***********************************************************
+ ****************************  courses Section
+ ***********************************************************/
+
+.footer
+{
+  background-color: #171a1c;
+  padding: 2rem;
+}
+.footer .text4 h2
+{
+  color: #ffffff;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+.footer .text4 span
+{
+  color: #ff274b;  
+  font-size: 2.2rem;
+}
+.footer .text4 p
+{
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.footer .text4 p.end 
+{
+  color: #ff274b;
+  letter-spacing: 1px;
+}
+
+/* end footer */
+
+
+
+/***********************************************************
+ ****************************   Media Queries 
+ ***********************************************************/
+@media screen and (max-width:767px) {
+  .imgs img {display: none;}
+  .navbar-light .navbar-toggler{display: none;}
+  
+  .about .text2 h1 {font-size: 20px;}
+  .about .text2 h4 {font-size: 20px;}
+  .about span {font-size: 20px;} 
+  .about .text2 p {font-size: 20px;letter-spacing: 0px;}
+
+  .skills .p6 { display: none;}
+  
+}
+
+@media screen and (max-width:991px){.navbar-light .navbar-toggler{display: none;}}
+
+
+
+
+
+#btn-up 
+{
+  position: fixed;
+  bottom: 40px;
+  right: 90px;
+  z-index: 99999;
+}
+
+
+
